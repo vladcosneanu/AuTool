@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/services_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/services_intro_layout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/searchTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="3dp"
+            android:text="@string/search_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#33b5e5"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchTitle"
+            android:layout_marginTop="20dp"
+            android:text="@string/search_description"
+            android:textColor="#888888"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible" >
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+
+        <ImageButton
+            android:id="@+id/full_screen_map_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/map_button"
+            android:src="@drawable/ic_action_full_screen" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/services_buttons_layout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/gas_station_button"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_left"
+                android:drawableLeft="@drawable/gas2"
+                android:drawablePadding="10dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/gas_station_button"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/auto_service_button"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_right"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/settings2"
+                android:gravity="right|center_vertical"
+                android:text="@string/auto_service_button"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/car_wash_button"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_left"
+                android:drawableLeft="@drawable/car_wash2"
+                android:drawablePadding="10dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/car_wash_nearby"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/parking_button"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_right"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/parking2"
+                android:gravity="right|center_vertical"
+                android:text="@string/parking_nearby_button"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/services_buttons_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="10dp" >
+
+        <Button
+            android:id="@+id/gas_station_button2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_left"
+            android:drawableLeft="@drawable/gas2"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/gas_station_button"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/auto_service_button2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_left"
+            android:drawableLeft="@drawable/settings2"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/auto_service_button"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/collapseMapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/button_center"
+            android:src="@drawable/ic_action_collapse" />
+
+        <Button
+            android:id="@+id/car_wash_button2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_left"
+            android:drawableLeft="@drawable/car_wash2"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/car_wash_nearby"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/parking_button2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_left"
+            android:drawableLeft="@drawable/parking2"
+            android:drawablePadding="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/parking_nearby_button"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/powered_by"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/powered_by_google" />
+</LinearLayout>

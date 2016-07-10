@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="@string/measurement_summary"
+        android:entries="@array/settings_measurement_unit"
+        android:entryValues="@array/settings_measurement_unit_value"
+        android:icon="@drawable/ruler"
+        android:key="measurement"
+        android:summary="%s"
+        android:title="@string/measurement" >
+    </ListPreference>
+    <ListPreference
+        android:defaultValue="@string/currency_summary"
+        android:entries="@array/settings_currency_unit"
+        android:entryValues="@array/settings_currency_unit_value"
+        android:icon="@drawable/currency"
+        android:key="currency"
+        android:summary="%s"
+        android:title="@string/currency" >
+    </ListPreference>
+    <ListPreference
+        android:defaultValue="@string/reminder_summary"
+        android:entries="@array/settings_reminder_unit"
+        android:entryValues="@array/settings_reminder_unit_value"
+        android:icon="@drawable/alarm"
+        android:key="reminder"
+        android:summary="%s"
+        android:title="@string/reminder" >
+    </ListPreference>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_action_place"
+        android:key="autocomplete"
+        android:summary="@string/autocomplete_summary"
+        android:title="@string/autocomplete_title" />
+
+    <Preference
+        android:icon="@drawable/remove"
+        android:key="reset"
+        android:summary="@string/reset_summary"
+        android:title="@string/reset" />
+    <Preference
+        android:icon="@drawable/contact"
+        android:key="contact"
+        android:summary="@string/pref_contact"
+        android:title="@string/contact" />
+    <Preference
+        android:icon="@drawable/about"
+        android:key="about"
+        android:title="@string/about" />
+
+</PreferenceScreen>

@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:background="@drawable/widget_background"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <Button
+        android:id="@+id/gas_station_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_button"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/gas3"
+        android:text="@string/gas_station_button"
+        android:textColor="@color/holo_blue_light"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="@color/widget_divider" />
+
+    <Button
+        android:id="@+id/auto_service_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_button"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/settings3"
+        android:text="@string/auto_service_button"
+        android:textColor="@color/holo_blue_light"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="@color/widget_divider" />
+
+    <Button
+        android:id="@+id/car_wash_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_button"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/car_wash3"
+        android:text="@string/car_wash_nearby"
+        android:textColor="@color/holo_blue_light"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="@color/widget_divider" />
+
+    <Button
+        android:id="@+id/parking_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_button"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/parking3"
+        android:text="@string/parking_nearby_button"
+        android:textColor="@color/holo_blue_light"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fuel_type_provider">
+        <item>@string/petrol</item>
+        <item>@string/diesel</item>
+        <item>@string/biodiesel</item>
+        <item>@string/autogas</item>
+        <item>@string/ethanol</item>
+        <item>@string/hybrid</item>
+    </string-array>
+    <string-array name="settings_measurement_unit">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="settings_measurement_unit_value">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+    <string-array name="settings_reminder_unit">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+    </string-array>
+    <string-array name="settings_reminder_unit_value">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+    </string-array>
+    <string-array name="settings_currency_unit">
+        <item>AED</item>
+        <item>AFN</item>
+        <item>ALL</item>
+        <item>AMD</item>
+        <item>ANG</item>
+        <item>AOA</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>AWG</item>
+        <item>AZN</item>
+        <item>BAM</item>
+        <item>BBD</item>
+        <item>BDT</item>
+        <item>BGN</item>
+        <item>BHD</item>
+        <item>BIF</item>
+        <item>BMD</item>
+        <item>BND</item>
+        <item>BOB</item>
+        <item>BRL</item>
+        <item>BSD</item>
+        <item>BTN</item>
+        <item>BWP</item>
+        <item>BYR</item>
+        <item>BZD</item>
+        <item>CAD</item>
+        <item>CDF</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>COP</item>
+        <item>CRC</item>
+        <item>CUC</item>
+        <item>CUP</item>
+        <item>CVE</item>
+        <item>CZK</item>
+        <item>DJF</item>
+        <item>DKK</item>
+        <item>DOP</item>
+        <item>DZD</item>
+        <item>EGP</item>
+        <item>ERN</item>
+        <item>ETB</item>
+        <item>EUR</item>
+        <item>FJD</item>
+        <item>FKP</item>
+        <item>GBP</item>
+        <item>GEL</item>
+        <item>GGP</item>
+        <item>GHS</item>
+        <item>GIP</item>
+        <item>GMD</item>
+        <item>GNF</item>
+        <item>GTQ</item>
+        <item>GYD</item>
+        <item>HKD</item>
+        <item>HNL</item>
+        <item>HRK</item>
+        <item>HTG</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>IMP</item>
+        <item>INR</item>
+        <item>IQD</item>
+        <item>IRR</item>
+        <item>ISK</item>
+        <item>JEP</item>
+        <item>JMD</item>
+        <item>JOD</item>
+        <item>JPY</item>
+        <item>KES</item>
+        <item>KGS</item>
+        <item>KHR</item>
+        <item>KMF</item>
+        <item>KPW</item>
+        <item>KRW</item>
+        <item>KWD</item>
+        <item>KYD</item>
+        <item>KZT</item>
+        <item>LAK</item>
+        <item>LBP</item>
+        <item>LKR</item>
+        <item>LRD</item>
+        <item>LSL</item>
+        <item>LTL</item>
+        <item>LVL</item>
+        <item>LYD</item>
+        <item>MAD</item>
+        <item>MDL</item>
+        <item>MGA</item>
+        <item>MKD</item>
+        <item>MMK</item>
+        <item>MNT</item>
+        <item>MOP</item>
+        <item>MRO</item>
+        <item>MUR</item>
+        <item>MVR</item>
+        <item>MWK</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>MZN</item>
+        <item>NAD</item>
+        <item>NGN</item>
+        <item>NIO</item>
+        <item>NOK</item>
+        <item>NPR</item>
+        <item>NZD</item>
+        <item>OMR</item>
+        <item>PAB</item>
+        <item>PEN</item>
+        <item>PGK</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>PYG</item>
+        <item>QAR</item>
+        <item>RON</item>
+        <item>RSD</item>
+        <item>RUB</item>
+        <item>RWF</item>
+        <item>SAR</item>
+        <item>SBD</item>
+        <item>SCR</item>
+        <item>SDG</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>SHP</item>
+        <item>SLL</item>
+        <item>SOS</item>
+        <item>SPL</item>
+        <item>SRD</item>
+        <item>STD</item>
+        <item>SVC</item>
+        <item>SYP</item>
+        <item>SZL</item>
+        <item>THB</item>
+        <item>TJS</item>
+        <item>TMT</item>
+        <item>TND</item>
+        <item>TOP</item>
+        <item>TRY</item>
+        <item>TTD</item>
+        <item>TVD</item>
+        <item>TWD</item>
+        <item>TZS</item>
+        <item>UAH</item>
+        <item>UGX</item>
+        <item>USD</item>
+        <item>UYU</item>
+        <item>UZS</item>
+        <item>VEF</item>
+        <item>VND</item>
+        <item>VUV</item>
+        <item>WST</item>
+        <item>XAF</item>
+        <item>XCD</item>
+        <item>XDR</item>
+        <item>XOF</item>
+        <item>XPF</item>
+        <item>YER</item>
+        <item>ZAR</item>
+        <item>ZMW</item>
+        <item>ZWD</item>
+    </string-array>
+    <string-array name="settings_currency_unit_value">
+        <item>AED</item>
+        <item>AFN</item>
+        <item>ALL</item>
+        <item>AMD</item>
+        <item>ANG</item>
+        <item>AOA</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>AWG</item>
+        <item>AZN</item>
+        <item>BAM</item>
+        <item>BBD</item>
+        <item>BDT</item>
+        <item>BGN</item>
+        <item>BHD</item>
+        <item>BIF</item>
+        <item>BMD</item>
+        <item>BND</item>
+        <item>BOB</item>
+        <item>BRL</item>
+        <item>BSD</item>
+        <item>BTN</item>
+        <item>BWP</item>
+        <item>BYR</item>
+        <item>BZD</item>
+        <item>CAD</item>
+        <item>CDF</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>COP</item>
+        <item>CRC</item>
+        <item>CUC</item>
+        <item>CUP</item>
+        <item>CVE</item>
+        <item>CZK</item>
+        <item>DJF</item>
+        <item>DKK</item>
+        <item>DOP</item>
+        <item>DZD</item>
+        <item>EGP</item>
+        <item>ERN</item>
+        <item>ETB</item>
+        <item>EUR</item>
+        <item>FJD</item>
+        <item>FKP</item>
+        <item>GBP</item>
+        <item>GEL</item>
+        <item>GGP</item>
+        <item>GHS</item>
+        <item>GIP</item>
+        <item>GMD</item>
+        <item>GNF</item>
+        <item>GTQ</item>
+        <item>GYD</item>
+        <item>HKD</item>
+        <item>HNL</item>
+        <item>HRK</item>
+        <item>HTG</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>IMP</item>
+        <item>INR</item>
+        <item>IQD</item>
+        <item>IRR</item>
+        <item>ISK</item>
+        <item>JEP</item>
+        <item>JMD</item>
+        <item>JOD</item>
+        <item>JPY</item>
+        <item>KES</item>
+        <item>KGS</item>
+        <item>KHR</item>
+        <item>KMF</item>
+        <item>KPW</item>
+        <item>KRW</item>
+        <item>KWD</item>
+        <item>KYD</item>
+        <item>KZT</item>
+        <item>LAK</item>
+        <item>LBP</item>
+        <item>LKR</item>
+        <item>LRD</item>
+        <item>LSL</item>
+        <item>LTL</item>
+        <item>LVL</item>
+        <item>LYD</item>
+        <item>MAD</item>
+        <item>MDL</item>
+        <item>MGA</item>
+        <item>MKD</item>
+        <item>MMK</item>
+        <item>MNT</item>
+        <item>MOP</item>
+        <item>MRO</item>
+        <item>MUR</item>
+        <item>MVR</item>
+        <item>MWK</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>MZN</item>
+        <item>NAD</item>
+        <item>NGN</item>
+        <item>NIO</item>
+        <item>NOK</item>
+        <item>NPR</item>
+        <item>NZD</item>
+        <item>OMR</item>
+        <item>PAB</item>
+        <item>PEN</item>
+        <item>PGK</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>PYG</item>
+        <item>QAR</item>
+        <item>RON</item>
+        <item>RSD</item>
+        <item>RUB</item>
+        <item>RWF</item>
+        <item>SAR</item>
+        <item>SBD</item>
+        <item>SCR</item>
+        <item>SDG</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>SHP</item>
+        <item>SLL</item>
+        <item>SOS</item>
+        <item>SPL</item>
+        <item>SRD</item>
+        <item>STD</item>
+        <item>SVC</item>
+        <item>SYP</item>
+        <item>SZL</item>
+        <item>THB</item>
+        <item>TJS</item>
+        <item>TMT</item>
+        <item>TND</item>
+        <item>TOP</item>
+        <item>TRY</item>
+        <item>TTD</item>
+        <item>TVD</item>
+        <item>TWD</item>
+        <item>TZS</item>
+        <item>UAH</item>
+        <item>UGX</item>
+        <item>USD</item>
+        <item>UYU</item>
+        <item>UZS</item>
+        <item>VEF</item>
+        <item>VND</item>
+        <item>VUV</item>
+        <item>WST</item>
+        <item>XAF</item>
+        <item>XCD</item>
+        <item>XDR</item>
+        <item>XOF</item>
+        <item>XPF</item>
+        <item>YER</item>
+        <item>ZAR</item>
+        <item>ZMW</item>
+        <item>ZWD</item>
+    </string-array>
+    <string-array name="tips_titles">
+
+        <!-- 1 -->
+        <item>Buy gas at reputable service stations</item>
+        <!-- 2 -->
+        <item>Don’t fill up if you see the tanker</item>
+        <!-- 3 -->
+        <item>Go easy when you’re stuck</item>
+        <!-- 4 -->
+        <item>Lighten up your key chain</item>
+        <!-- 5 -->
+        <item>Choose a good car insurer</item>
+        <!-- 6 -->
+        <item>Keep an auto log</item>
+        <!-- 7 -->
+        <item>Park in the shade</item>
+        <!-- 8 -->
+        <item>Clean the inside, too</item>
+        <!-- 9 -->
+        <item>Clean dash gauges carefully</item>
+        <!-- 10 -->
+        <item>Let floor mats take winter’s beating</item>
+        <!-- 11 -->
+        <item>Blast mats with the hose</item>
+        <!-- 12 -->
+        <item>For stubborn carpet or mat stains</item>
+        <!-- 13 -->
+        <item>Preserve door and window seals</item>
+        <!-- 14 -->
+        <item>Fix bad weatherstripping immediately</item>
+        <!-- 15 -->
+        <item>Keep leather from drying out and cracking</item>
+        <!-- 16 -->
+        <item>Use upholstery cleaners on soiled seats</item>
+        <!-- 17 -->
+        <item>Renew fabric upholstery</item>
+        <!-- 18 -->
+        <item>Place a towel under baby seats</item>
+        <!-- 19 -->
+        <item>Protect car paint from the sun</item>
+        <!-- 20 -->
+        <item>Touch up nicks sooner rather than later</item>
+        <!-- 21 -->
+        <item>Tape saves light covers</item>
+        <!-- 22 -->
+        <item>Avoid light fixture problems</item>
+        <!-- 23 -->
+        <item>Fix small windshield chips</item>
+        <!-- 24 -->
+        <item>Fill with washer fluid only</item>
+        <!-- 25 -->
+        <item>Fix the washer fluid tank</item>
+        <!-- 26 -->
+        <item>Don’t try to carry too much</item>
+        <!-- 27 -->
+        <item>Keep an old blanket handy</item>
+        <!-- 28 -->
+        <item>Secure loads to avoid dents and scratches</item>
+        <!-- 29 -->
+        <item>Inspect wheel-well splashguards</item>
+        <!-- 30 -->
+        <item>Wash in winter, too</item>
+        <!-- 31 -->
+        <item>Wax to protect your car’s paint job</item>
+        <!-- 32 -->
+        <item>Give your car a new skin</item>
+        <!-- 33 -->
+        <item>Don’t let tools mar your car’s finish</item>
+        <!-- 34 -->
+        <item>Keep the caps on</item>
+        <!-- 35 -->
+        <item>Maintain proper inflation</item>
+        <!-- 36 -->
+        <item>Beware the wet thumb</item>
+        <!-- 37 -->
+        <item>Check for uneven wear</item>
+        <!-- 38 -->
+        <item>Rotate your tires</item>
+        <!-- 39 -->
+        <item>When temperatures affect tire inflation</item>
+        <!-- 40 -->
+        <item>Buy used tires</item>
+        <!-- 41 -->
+        <item>Use wheel cleaner</item>
+        <!-- 42 -->
+        <item>Lube your lug nuts</item>
+        <!-- 43 -->
+        <item>Hang on to your hubcaps</item>
+        <!-- 44 -->
+        <item>Have wheel alignment checked</item>
+        <!-- 45 -->
+        <item>Top off your brake fluid</item>
+        <!-- 46 -->
+        <item>Care for anti-lock brakes</item>
+        <!-- 47 -->
+        <item>Change oil frequently</item>
+        <!-- 48 -->
+        <item>Avoid overfilling your crankcase with oil</item>
+        <!-- 49 -->
+        <item>Wipe oil pan plug clean</item>
+        <!-- 50 -->
+        <item>Don’t forget the PCV valves</item>
+        <!-- 51 -->
+        <item>Heavier is not always better</item>
+        <!-- 52 -->
+        <item>Maintain your transmission</item>
+        <!-- 53 -->
+        <item>Consider adding oil coolers</item>
+        <!-- 54 -->
+        <item>Spark plugs do need changing</item>
+        <!-- 55 -->
+        <item>Avoid hose hassles</item>
+        <!-- 56 -->
+        <item>Test drive-belt tension</item>
+        <!-- 57 -->
+        <item>Don’t forget the timing belt</item>
+        <!-- 58 -->
+        <item>Clean your engine</item>
+        <!-- 59 -->
+        <item>Run your AC in winter</item>
+        <!-- 60 -->
+        <item>Maintain your car’s battery</item>
+        <!-- 61 -->
+        <item>Some batteries need water</item>
+        <!-- 62 -->
+        <item>Seal a leaky radiator</item>
+        <!-- 63 -->
+        <item>Dilute your coolant</item>
+        <!-- 64 -->
+        <item>Keep your cool</item>
+        <!-- 65 -->
+        <item>Don’t forget to flush</item>
+        <!-- 66 -->
+        <item>Don’t mix coolants</item>
+        <!-- 67 -->
+        <item>Check power-steering fluid</item>
+        <!-- 68 -->
+        <item>Buy a good car to begin with</item>
+        <!-- 69 -->
+        <item>Follow the maintenance schedule in your owner’s manual</item>
+        <!-- 70 -->
+        <item>Keep a repair fund</item>
+        <!-- 71 -->
+        <item>Do your homework</item>
+        <!-- 72 -->
+        <item>Be aware</item>
+        <!-- 73 -->
+        <item>Ask a friend to drive</item>
+        <!-- 74 -->
+        <item>Fix everything as soon as it breaks</item>
+        <!-- 75 -->
+        <item>Use quality replacement parts</item>
+        <!-- 76 -->
+        <item>Keep it clean</item>
+        <!-- 77 -->
+        <item>Fight rust</item>
+        <!-- 78 -->
+        <item>Drive gently</item>
+        <!-- 79 -->
+        <item>Gloat!</item>
+    </string-array>
+    <string-array name="tips_descriptions">
+
+        <!-- 1 -->
+        <item>Ask whether the gas you buy is filtered at the pump and if the station has a policy about changing the pump filters regularly. If you get a song and dance, find another gas station. Some stations don’t have pump filters, making you more vulnerable to dirty gasoline. Other stations may not mix alcohol and fuel properly — or worse, water down their product. Find a station you trust and stick to it.</item>
+        <!-- 2 -->
+        <item>If you happen to see a gasoline tanker filling the tanks at your local gas station, come back another day or go to a different station. As the station’s underground tanks are being filled, the turbulence can stir up sediment. Sediment in your gas can clog fuel filters and fuel injectors, causing poor performance and possibly necessitating repairs.</item>
+        <!-- 3 -->
+        <item>When stuck in mud or snow, don’t make the problem worse by damaging an expensive component. Gently rocking in an attempt to free the car is fine. But if it looks as though you’re really stuck, don’t keep at it. Throwing your car from forward to reverse repeatedly, as well as spinning tires at high speeds, can generate lots of heat and spell trouble for transmissions, clutches, and differentials. It may be cheaper in the long run to call the tow truck rather than risk big repair bills down the road. It’s a good idea to carry a traction aid in the trunk, such as sand, gravel, or cat litter.</item>
+        <!-- 4 -->
+        <item>Does your car key share a chain with a dozen or more other keys? That’s a pretty heavy load hanging off the car key when it’s in the ignition.The weight, combined with bouncing while you drive, can wear out the tumblers inside the ignition and eventually lead to ignition switch failure.To add years of service to your ignition switch, purchase a lightweight key chain that allows you to separate your ignition key from the others. Drive with only the ignition key in your ignition. If your ignition key “sticks” when you try to turn on the car, it’s a warning that your ignition switch is about to fail. Replace it before you get stranded.</item>
+        <!-- 5 -->
+        <item>Sometimes, no matter how careful you are, disaster inevitably strikes — typically in the form of an accident. Make sure that your car will be repaired to the best possible standard by finding an insurer that will pay for parts from the original manufacturer and guarantee the repairs it authorizes.</item>
+        <!-- 6 -->
+        <item>Keep a pad and pencil in the glove compartment and use them to record your gas fill-ups and mileage. If you notice that your gas mileage worsens, mention it to your service man. It may be an early warning sign that something is wrong with your car.</item>
+        <!-- 7 -->
+        <item>Of course, a garage is always the ideal place to park your car. But if one isn’t available, minimize interior damage from UV sunlight and heat by always trying to park your car in the shade. If no shade is available or if you find parking under a tree results in bird droppings, use a car shade to minimize the sun’s impact. As a bonus, you’ll have a cooler car to step into on hot sunny days. Car shades come in two basic types: those that you unfold and place on the front windshield and rear window, or pleated types that attach to the windshield posts (with adhesive), window frames (with Velcro), or the windows themselves (with suction cups).</item>
+        <!-- 8 -->
+        <item>Vacuum and sponge your interior every time you wash your car. Dirt particles are abrasive, and spilled liquids, such as soda, can be corrosive.Vacuum your interior thoroughly with a powerful vacuum (small cordless models are generally too weak). Use the appropriate wand heads when vacuuming. The bare metal wand can mar and scratch surfaces. Sponge vinyl surfaces clean with a solution of mild detergent and water.</item>
+        <!-- 9 -->
+        <item>Use a soft damp cloth to lightly wipe dust from the clear plastic lenses on your dashboard. Too much pressure will scratch them. Too many scratches can make it difficult to read your gauges under certain lighting conditions.</item>
+        <!-- 10 -->
+        <item>Use floor mats to protect carpeting. The best type for controlling salt, slush, and mud in winter are rubber wafflestyle mats. They stay in place, don’t allow the water to seep through, and are easy to wash clean. Carpet-style mats are helpful, too. Shake, vacuum, or wash as needed; replace them as they wear through.</item>
+        <!-- 11 -->
+        <item>When washing your car, drag out the rubber or carpet floor mats and blast them with the hose.This will dislodge dirt particles that, if allowed to build up, will grind holes in your mats. Let the mats dry thoroughly in the sun before reinstalling them.</item>
+        <!-- 12 -->
+        <item>After vacuuming floor mats or interior carpeting, apply foam rug cleaner to resistant stains as directed by the maker. Work the foam into a few square feet at a time, using a wet sponge or brush. Vacuum when dry.</item>
+        <!-- 13 -->
+        <item>Wipe a rubber protectant (such as Armor-All) or silicone on door and window weatherstripping to keep it in good condition. Don’t use an oilbased product, such as WD-40, because the oil will damage the rubber. Regular cleaning and treatment of your car’s weatherstripping will also lessen the likelihood of your door sticking to its rubber seal in cold weather, a common cause of damage to the rubber.</item>
+        <!-- 14 -->
+        <item>If your weatherstripping is letting rainwater leak into the interior of your car, take a look at it and decide if you can repair it or if it needs to be replaced. Small leaks can be handled with brush-on seam sealers. Resecure loose sections, not otherwise damaged, with trim adhesive. Torn sections may be repaired with special caulking available at auto parts stores. You may also be able to extend the life of worn-but-intact sections by inserting foam rods, available at automotive stores, into the hollow section of the weatherstripping. If you decide to replace entire sections of gasket, don’t simply buy generic stuff such as you’d use around the house. Buy a product that matches your car’s original weatherstripping — it’s available in a wide variety of profiles from dealerships and automotive mail-order catalogues.</item>
+        <!-- 15 -->
+        <item>Leather cars seats are durable and don’t require a lot of maintenance. After a few years, however, the seats can become soiled. Use a leather cleaner to remove dirt and stains.Then apply a leather protectant formulated for pigmented or top-coated grain leather (the leather used for most leather car upholstery). Protectants will resist stains and make the upholstery easier to clean in the future. Choose a protectant that includes conditioners to keep your leather supple.</item>
+        <!-- 16 -->
+        <item>The same upholstery cleaners you use at home can be used on your car’s upholstery. Use them sparingly, however, to avoid saturating the fabric. Use a clean cloth to wipe away the foam. On velour seats, brush the fibers gently to avoid matting them and to preserve the original texture of the fabric.</item>
+        <!-- 17 -->
+        <item>Spraying fabric car seats and carpets with a fabric protectant, such as Scotchgard, will make them resist dirt and stains, and make them easier to clean. Thoroughly clean the fabrics before using one of these products and then test the product on an inconspicuous place to be sure the treatment will not discolor the fabric.</item>
+        <!-- 18 -->
+        <item>All manner of food bits and liquids can accumulate under a baby seat, where they can permanently stain the upholstery. Place a sheet of heavy plastic and an absorbent towel under the seat to prevent damage, and re-secure the seat according to the manufacturer’s directions.</item>
+        <!-- 19 -->
+        <item>Paint does more than make your vehicle look great. It’s also the first line of defense against rusted body panels. Of course, the best way to protect the paint is to park the car in a garage. If that is not possible, park in the shade or purchase a car cover. The sun’s ultraviolet rays break down paint and cause it to fade. Some car covers protect your car from more than sun, moisture, bird droppings, and dust — they also have a thin layer of cushioning that will guard against light impact, such as from a tipped bicycle or small falling tree branch.</item>
+        <!-- 20 -->
+        <item>Touch-up paint won’t adhere well to rust. So be sure to keep some matching touch-up paint on hand so you can touch up any minor nicks, often found around door edges, before rust has a chance to form.</item>
+        <!-- 21 -->
+        <item>A cracked taillight or turn-signal cover, if left alone, may allow your light compartment to fill with water and cause some real damage. A good short-term fix is to tape over the crack. Use the red or orange tape that’s made for this purpose.You can purchase it at many automotive parts stores.</item>
+        <!-- 22 -->
+        <item>When changing a bad bulb, clean dirty or corroded sockets with fine steel wool or a small wire brush.Wipe the socket clean of debris before installing the new light bulb.</item>
+        <!-- 23 -->
+        <item>Got a rock chip, crack, or ding in your windshield? Bring your car to a windshield repair shop. For far less cost than replacing the windshield, they can fix chips and cracks, even quite long ones. The repairs not only keep the chips and cracks from spreading and restore structural integrity, they also improve clarity.</item>
+        <!-- 24 -->
+        <item>Don’t add water to the windshield washer reservoir. It won’t clean as well as washer fluid, and it may freeze in cold weather and damage the system. Don’t try to run your windshield washer system once you suspect there’s no more fluid in the tank, or you may damage the washer fluid pump.</item>
+        <!-- 25 -->
+        <item>Cracked washer-deicer fluid tanks are fairly common once a car is of a certain age. A good remedy — until you can buy a new tank or find one at the junkyard — is to insert a plastic freezer bag into the tank and fill it with the washer fluid.</item>
+        <!-- 26 -->
+        <item>Never exceed your car’s roof load specifications or weight limits.You can find them in your vehicle owner’s manual. Check the weight limitation of your roof rack as well. Typically the range is from 150 to 200 pounds (68 to 90 kg). That’s the equivalent of eighteen 8-foot 2 x 4s (2.4-meter 38 x 89s) or three sheets of &#190;-inch (17-mm) plywood. If you have to deliver a heavy load from the home or garden center, consider having it delivered. It will save wear and tear on you as well as your car.</item>
+        <!-- 27 -->
+        <item>Protect your car’s roof from scratches with an old blanket before tying lumber, bicycles, or luggage to your roof rack.</item>
+        <!-- 28 -->
+        <item>The beginning of the end for the finish on many cars and trucks — and for wagon and hatchback interiors for that matter — is an improperly stowed load. Invest in the appropriate racks for bicycles, cargo, and luggage. A good trick to keep tall objects from sliding around in a pick-up truck bed is to use a shower curtain rod (or two) as a brace. Just push the cargo against the front wall of the truck bed and install the rod behind it. Twist to secure. Cargo nets will also help keep objects from banging around and damaging a truck bed.</item>
+        <!-- 29 -->
+        <item>These guards, however flimsy on many of today’s cars, help keep water and winter’s salty slush from splashing up into the engine compartment, where it can damage sensitive electrical components. Unfortunately, these guards tear off easily — sometimes without the driver knowing it. Check for damage to these guards when you wash your car. Re-secure with the appropriate fasteners or replace as needed. As added protection from splashed-up muck, slush, and debris, install mud flaps (also called splash guards) on your vehicle.</item>
+        <!-- 30 -->
+        <item>If you rarely wash your car during messy winter weather, you are not alone.The cars you see on the road make it obvious that lots of folks figure,”Why bother? The car is going to look awful the next time I drive it.” The problem with this thinking is that washing is more important in the winter than other times of the year. All that sand, slush, and ice mixed with road salt is exactly what makes your car rust.The fastest corrosion occurs when the temperature repeatedly rises above and then falls below freezing. Especially during the messy months, be sure to rinse the undercarriage and hard-to-reach areas that are susceptible to rust, such as the bumpers and inside the wheel wells. If the temperature outside is going to stay above freezing long enough for your car and driveway to dry, fill a bucket with warm water and tackle the job at home. If not, pay a visit to your local car wash and be sure they dry the car thoroughly.</item>
+        <!-- 31 -->
+        <item>No way around it! Waxing your car is work. But it’s satisfying work that will help keep your car looking new. Car wax preserves paint by slowing oxidation and forming a barrier against bird droppings, sap, and pollution. Plus driving a nice shiny car is just plain fun.</item>
+        <!-- 32 -->
+        <item>New self-adhering urethane films have been developed to protect the most vulnerable painted areas on your car from stone chips and other minor abrasions.You can wash and wax these surfaces, just as you would the rest of the paint job. While it’s best to have these films professionally installed, you can peel them off yourself. One product is made by 3M, and you can learn more by going to 3m.com and searching for Scotchgard Paint Protection Film Solutions.</item>
+        <!-- 33 -->
+        <item>If you plan to service and make repairs to your car, invest in a fender cover. It drapes over your fender, providing a safe place to rest your tools without causing scratches. It will also prevent your belt buckle from marring your paint as you lean into the engine compartment to work.</item>
+        <!-- 34 -->
+        <item>You step out into driveway ready to start your morning commute only to discover a flat tire. How in the heck did that happen overnight? If the tire valve is missing its cap, the culprit might be a leaky valve. Those little caps keep out dirt and moisture that can cause leaks, so be sure to keep caps on all your tire valves. Another tip: When you replace tires, remind the tire shop that you expect new valves with the tires.</item>
+        <!-- 35 -->
+        <item>Under-inflated tires are a tire salesman’s best friend. They create excessive heat and stress that can lead to tire failure. If you want to get every last mile out of your tires, get yourself a tire pressure gauge and use it at least once a month (more in hot weather) to keep your tires inflated to the recommendation in the vehicle’s owner’s manual. Check tires when they are cold (driven for less than one mile) for an accurate reading.</item>
+        <!-- 36 -->
+        <item>If you top off your tires at a service station, check to see if there’s moisture coming from the air pump. Simply depress the pin inside the inflator valve with your thumbnail. If your thumb gets wet, advise the station manager that his tanks need to be drained and go to a different station. Moisture, trapped inside a tire, can cause pressure variations and corrode rims.</item>
+        <!-- 37 -->
+        <item>Check tires for uneven wear. If you’ve maintained tire inflation properly, uneven wear may indicate the need for a wheel realignment. It can also mean improperly operating brakes or shocks, a bent wheel, internal tire damage, or worn bushings.</item>
+        <!-- 38 -->
+        <item>Rotating your tires helps to distribute tire wear evenly and ensures that you’ll get the maximum road life out of them. The first rotation is especially important.Your owner’s manual should specify both rotation period and pattern. If not, rotate your tires every 6,000 to 7,500 miles (9,700 to 12,000 km) — your tire dealer should know the correct pattern of tire rotation.</item>
+        <!-- 39 -->
+        <item>When outside temperatures drop or soar, tires tend to lose pressure. A drop of 10 degrees F (6 degrees C), in fact, will decrease a tire’s air pressure by 1 or 2 pounds.Tires can lose even more air in hot weather. Under-inflated tires can result in accelerated wear and poor driving performance. If you live in a place where temperatures vary a lot, check your tire pressure often and add air as needed.</item>
+        <!-- 40 -->
+        <item> If you own a car that you plan to drive only for another year, the last thing you want to do is to buy a new set of tires. If it’s time to replace those tires though, it’s really time. Rather than hesitate, buy a set of used tires. Call local tire dealers to see what’s available. You’ll be surprised by how much wear is left in tires that are turned in by image-conscious car owners. Have your tire size handy.</item>
+        <!-- 41 -->
+        <item>Your car’s wheels are down there on the road, taking the brunt of road dirt. Add in the dust that wears off your brake pads and you’ve got a formula for stains that are tough to remove when you wash your vehicle. Car-washing liquid won’t do the job.You need a wheel cleaner specifically formulated to remove such stains. Be sure to buy the correct formulation. Some cleaners are designed for metal wheels, and others for painted or clear-coated wheels.The metal wheel cleaners come in various formulations as well, depending upon whether your metal wheel has a satin, aluminum, or chrome finish. Protect metal wheels with wheel polish, painted wheels with a coat of wax.</item>
+        <!-- 42 -->
+        <item>Lug nuts, if not lubricated occasionally, can seize or “freeze” to the studs due to corrosion. Repairing them can be expensive. Having to call a tow truck for a flat you can’t remove is even more expensive.The next time you change or rotate your tires, pick up some anti-seize lubricant at your local auto supply store. Clean the stud threads with a wire brush and wipe them with the lubricant. It’s formulated to prevent the lug nuts (spark plugs, too) from seizing and won’t allow them to loosen as you drive, the way other lubricants might. If a lug nut does freeze to a stud, try spraying the nut and stud with WD-40 or Liquid Wrench. Allow it to penetrate for 10 or 20 minutes. Use a heat gun to apply heat.Then use a ratchet wrench to remove the lug.</item>
+        <!-- 43 -->
+        <item>Clang, clang, clang! There goes your hubcap,rolling off to destination unknown. Hubcaps, wheel covers, and center caps can pop off your car’s wheels as you’re driving if they were not reinstalled correctly, have loosened over time, or if they were damaged by being jammed against a curb while parking.</item>
+        <!-- 44 -->
+        <item>Have your car’s wheel alignment checked every 30,000 miles (48,000 km), or as recommended in your owner’s manual. Also have it checked after buying new tires and when you replace a rack-and-pinion steering unit or other steering parts. Improper tire alignment will shorten the life of your tires as well as cause poor handling. If your steering is stiffer than normal or the vehicle pulls to one side, you probably have an alignment problem.</item>
+        <!-- 45 -->
+        <item>Check brake fluid monthly. Wipe dirt from the master cylinder lid before you open it. If you need fluid, add the type recommended by your car’s maker. Never substitute other fluids, such as transmission or power-steering fluid. And don’t use brake fluid from a previously opened container. Once exposed to air, brake fluid absorbs moisture and contaminates easily.</item>
+        <!-- 46 -->
+        <item>An anti-lock brake system is sensitive to moisture, which can ruin the expensive ABS pump and rot the brake lines from the inside. Since brake fluid attracts moisture, it should be “bled” or purged at least every three years, or as specified in your owner’s manual.</item>
+        <!-- 47 -->
+        <item>Your dad knew that frequent oil changes were key to keeping his Buick on the road another year. And while owner’s manuals for today’s cars recommend increasing long intervals between oil changes, the fact remains — frequent changes flush abrasive dirt and metal particles out of the engine, prolonging its life. Most owner’s manuals recommend a more frequent interval for “severe conditions.” To maximize the life of your engine, follow the severe intervals recommendations, especially if drive regularly in stop-and-go traffic.</item>
+        <!-- 48 -->
+        <item>Don’t overfill your engine crankcase with oil. If you do, the oil can rise into the crankshaft, where air bubbles will get churned into the oil.Your oil pump can’t do a good job of circulating oil with air bubbles. The result can be overheating and stress on engine components. Overfilling can also foul your sparkplugs. In fact, overfilling is a bad idea with all automotive fluids.</item>
+        <!-- 49 -->
+        <item> If you do your own oil changes, clean the drain plug and washer with rags before reinstalling your oil pan. Some plugs are magnetized to trap metal particles. </item>
+        <!-- 50 -->
+        <item> The PCV (positive crankcase ventilation) valve is an emissions control device on older cars — check your service manual to see if your car has one.The valve recirculates partially burned gases from the engine’s crankcase to the combustion chamber. Important to a properly functioning engine, the valve should be changed every 30,000 miles (48,000 km) or as specified in your owner’s manual. In addition to helping you get the most from a tank of gasoline, it helps to prevent the buildup of harmful sludge and corrosion.When replacing your PCV valve, be sure you use the correct one or you may damage your engine.</item>
+        <!-- 51 -->
+        <item>Use the oil viscosity grade that’s recommended in your owner’s manual for the temperature range you expect for the coming season. Lighter grades (lower viscosity, such as SAE 5W-30), often specified for today’s smaller car engines, will deliver easier starts and better engine protection in winter and improved gas mileage throughout the year, thanks to less internal engine friction. Do not use a heavy grade of oil in cold winter climes or you will risk damage to your engine.</item>
+        <!-- 52 -->
+        <item> Change automatic transmission fluid and filter after the first 5,000 miles (8,000 km) and after every 25,000 miles (40,000 km) or two years thereafter, or as recommended in your owner’s manual. If you use your vehicle for towing, change the fluid and filter every year. For manual transmissions, change the lubricant (motor oil or gear oil, depending on the car) after the first 5,000 miles and after every 50,000 (80,000 km) thereafter. Use synthetic motor oil or gear lube for longer transmission life unless the manufacturer recommends otherwise.</item>
+        <!-- 53 -->
+        <item>If you plan to do a lot of towing and your vehicle is not already equipped with coolers, consider having them added. Aftermarket engine oil and transmission fluid coolers are simple, low-cost addons that operate on the same principle as your car’s radiator. The fluid flows through them, and many small fins absorb and dissipate heat. Cooler operating temperatures of engine oil and transmission fluid can add significantly to the life of your engine and transmission.</item>
+        <!-- 54 -->
+        <item>The advent of electronic ignition and on-board computers has eliminated the need for regular tune-ups, but you still need to change your spark plugs. Many manufacturers recommend changing plugs every 30,000 or 40,000 miles (48,000 or 64,000 km) to ensure good fuel mileage and engine performance. Some new cars come with long-life plugs (sometimes called double platinum plugs) that can last for 100,000 miles (160,000 km). If your car isn’t so equipped, make the switch after 30,000 miles. The extra cost is only a few dollars per spark plug. While you’re at it, change your spark plug wires as well. Their typical life is 50,000 miles (80,000 km). Deteriorated wires can cause those high-tech new spark plugs to foul.</item>
+        <!-- 55 -->
+        <item>Check the hoses under your hood every month or two to avoid the hassle of a broken hose while you’re on the road. With the car cool and off, squeeze the hoses. If they are hard or make a crunching sound, replace them. Ditto if they are extremely soft or sticky.With the car warm but off, examine hoses for bulges and collapsed sections. If you find any, the hose walls are weak, and it’s time to replace the hose. Never drive with a ruptured coolant hose, or you are liable to overheat the engine and damage it. Other hoses are crucial to operation of your power brakes and cruise-control systems.</item>
+        <!-- 56 -->
+        <item> Check the tension and condition of your drive belt (or, with many cars, multiple belts) every month. Belts that are too tight can wear out the bearings in accessory components, such as AC compressor, water pump, and power-steering pump. Belts that are too loose will wear out faster and may fail prematurely. Perform your examination before you start the car to avoid injury due to a hot belt or moving engine part. Check for tension by pressing in the center of the belt’s longest exposed run while holding a ruler next to it. If you can depress the belt &#189; to 1 inch (13 to 25 mm), but not more or less, the tension is good. If not, adjust the belt tension yourself according to your car’s service manual, or have your dealer or auto repair service do it. Also check for belt damage, such as glazing (often due to oil leakage), fraying, and cracks. If you spot damage, have the belt checked by a pro and replaced if necessary.</item>
+        <!-- 57 -->
+        <item> On many cars, it’s the belt you can’t see that is the most critical. If your manual says, as many do, that you should replace the timing belt at 50,000 miiles, do it! A failed timing belt can, depending on engine type, cause thousands of dollars worth of damage to your engine.</item>
+        <!-- 58 -->
+        <item> There are several reasons to wash your engine at least every year or two. A clean engine will run cooler than a dirty one. You’ll be more apt to tackle routine belt and hose checks and the like if you know you won’t get covered with grime every time you do so. A clean engine will also make it much easier to spot leaks and to service components. Remember to protect sensitive engine components — including the air intake, distributor, and electrical parts — with plastic bags before getting started. Use dishwashing liquid or other grease-cutting detergents and a bristle brush to scrub engine and components surfaces. Rinse thoroughly. Heavy-duty engine cleaning products are available at automotive parts stores. Follow the directions carefully. You may also have your engine professionally steam cleaned.</item>
+        <!-- 59 -->
+        <item> To keep your car’s air-conditioning system fit for the next warm season, run it a few times throughout the winter. This will prevent moving parts in the compressor from seizing. Also, circulating the refrigerant will help keep the seals soft and pliant.</item>
+        <!-- 60 -->
+        <item> Maybe the manufacturer says your battery is maintenance-free, but don’t you believe it! Check your battery regularly to extend its life and avoid the hassle of being stranded with a dead battery.</item>
+        <!-- 61 -->
+        <item> If your battery has vent caps, remove them to check the level of the electrolyte. It should rise &#189; inch (13 mm) above the battery’s top plates. If it doesn’t, use distilled water to raise the level to &#188; or 3/8 inch (6 or 10 mm) below the bottom of the vent cap. Don’t use tap water, as it may contain minerals that can damage your battery. Mechanics should check your battery as a part of your regularly scheduled maintenance, but they often skip the procedure. Be sure to ask to have it done.</item>
+        <!-- 62 -->
+        <item> Save the high expense of a new radiator by trying to seal a leak with a radiator sealer, such as Alumaseal from Gold Eagle Co. Available in powder or liquid form, the product circulates in the radiator until it gets to the hole, where it sets up and fills the hole upon contact with the air. Alumaseal may be used to stop heater core leaks as well.</item>
+        <!-- 63 -->
+        <item> Your cooling system needs both coolant-antifreeze and water, so don’t pour undiluted coolant into your cooling system. Dilute it with water to the commonly recommended 50&#8211;50 ratio. Similarly, don’t use straight water in your system either.The coolant protects against corrosion and freezing.The water ensures good heat transfer from the coolant to the radiator.</item>
+        <!-- 64 -->
+        <item> Check the coolant-antifreeze level weekly that shows on the translucent coolant-antifreeze overflow tank. If low, fill to the maximum fill mark on the tank with a 50&#8211;50 solution of coolant-antifreeze and water. Some coolant manufacturers now sell premixed coolant and water for the motorist who wants a quick and easy way to top off.</item>
+        <!-- 65 -->
+        <item> Coolant-antifreeze eventually degrades and becomes contaminated. Flush it from your cooling system as recommended in your manual (typically every two years; every five years for newer coolants). Failing to do so can damage your radiator, clog your heater core, and cause the thermostat and water pump to fail.</item>
+        <!-- 66 -->
+        <item>Avoid mixing coolants that are different in color. If your coolant is pink, don’t add a green formulation to it. Otherwise, you’ll end up with a thick solution that won’t do its job. Use only the coolant specified in your owner’s manual.</item>
+        <!-- 67 -->
+        <item>Check the power-steering fluid once a month with the car warmed up. If the level is low, have the hoses and pump inspected for leaks. In addition to making your car difficult to steer, low power-steering fluid will damage the power-steering pump. Be sure to use the powersteering fluid recommended for you car.</item>
+        <!-- 68 -->
+        <item>Though Japanese cars are generally the most reliable, don’t dismiss American cars &#8212; their quality is improving and they are often less expensive to repair. European cars are generally the most expensive to fix. If you’re shopping, talk to owners of similar cars about their experiences.</item>
+        <!-- 69 -->
+        <item>If your car has a "maintenance minder", use that as a guideline for service, but be sure to double-check your owner’s manual as some items need to be replaced based on time rather than mileage. Don’t forget the timing belt! Most cars need to have the timing belt replaced every 60,000 to 90,000 miles. It’s not cheap, but it’s far less expensive than the damage it causes if it breaks.</item>
+        <!-- 70 -->
+        <item>Cars do break, and there’s nothing like a $1,500 repair bill to scare an old-car owner into the new-car showroom. Remember, your car would have to generate repair bills of around $5,000 per year for at least four years in a row to even approach the cost of a new car. In place of your payment, try putting $100 or $200 per month into an interest-bearing car-repair account. That way an unexpected repair or major maintenance won’t disrupt your normal cash flow.</item>
+        <!-- 71 -->
+        <item>Many cars have known problems that tend to pop up under certain circumstances or after enough mileage/time. Most makes and models have Web sites and forums devoted to them; they can be a gold mine of information. Knowing your car is prone to a given problem isn’t nec’ssarily cause to get rid of it; it just allows you to be prepared.</item>
+        <!-- 72 -->
+        <item>Be on the lookout for new noises, strange smells or anything that just doesn’t feel right. If something seems amiss, talk to your mechanic or dealership. Don’t let them tell you "that’s normal" &#8212; if you’ve been driving your car long enough, you know best what normal is.</item>
+        <!-- 73 -->
+        <item>Every two or three months, ask a friend to take you for a drive in your own car. Some problems appear or increase so gradually that you may not even notice them, but they’ll stick out like a sore thumb to someone less familiar. And by riding along in the passenger’s seat, you may spot something you missed while preoccupied with driving.</item>
+        <!-- 74 -->
+        <item>If you’re going to keep your car as long as possible, you have to want to keep it as long as possible. Don’t ignore seemingly unimportant problems like broken trim bits, torn upholstery, or electrical glitches. Little annoyances tend to add up and can begin to erode your love affair with your old car.</item>
+        <!-- 75 -->
+        <item>Whether or not to use genuine manufacturer parts is open to debate, but don’t just opt for the least expensive parts you can find. Discuss options with your mechanic or parts store. If a non-wearing part is damaged, consider buying a used replacement &#8212; you’ll get manufacturer quality at a more affordable price.</item>
+        <!-- 76 -->
+        <item>Paint does more than make your car look good; it protects the materials underneath. Wash your car regularly. When water no longer beads on the paint, wax it.</item>
+        <!-- 77 -->
+        <item>If you live where it snows, be sure to wash the car regularly &#8212; but only if the temperature is above freezing. (Below freezing the salt stays in solution and won’t harm the car.) Don’t park in a heated garage; melting snow allows embedded salt to attack. Make sure your car wash does not recycle their water &#8212; otherwise they’re just spraying your car with salt from other people’s vehicles.</item>
+        <!-- 78 -->
+        <item>There’s no need to baby your car; in fact, a little foot-to-the-floor acceleration every once in a while is a good thing, but driving like a wannabe Michael Schumaker in his Formula 1 Ferrari isn’t good for your car (or your nerves).</item>
+        <!-- 79 -->
+        <item>If you enjoy the surprised looks people give you when you tell them your car has 150,000 miles on it, wait until you see their faces at 200,000. If people chide you about your old wheels, chide them about their car payments and higher insurance rates. Keeping your car as long as possible saves you hundreds of dollars per month; keeping it in good repair minimizes the environmental impact by ensuring that it runs cleanly and efficiently as possible. Feel free to gloat &#8212; you and your car have earned it!</item>
+    </string-array>
+
+</resources>

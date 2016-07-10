@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/route_details_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/route_details_main_layout"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="0dip">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/route_details_progress_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="@string/receiving_route_details"
+                        android:textColor="@color/text_white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/route_cities_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/departure_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_left2"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/departure_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/departure_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/waypoint1_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_left2"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/waypoint1_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/waypoint1_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/waypoint2_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_left2"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/waypoint2_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/waypoint2_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/waypoint3_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_left2"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/waypoint3_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/waypoint3_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/waypoint4_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_left2"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/waypoint4_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/waypoint4_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/destination_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/button_left2"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="@string/destination_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/destination_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/fuel_indicator_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/fuel_gauge" />
+
+                    <ImageView
+                        android:id="@+id/fuel_indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:rotation="58"
+                        android:src="@drawable/fuel_indicator" />
+
+                    <LinearLayout
+                        android:id="@+id/fuel_percentage_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="125dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/fuel_percentage_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/holo_blue_light"
+                            android:textSize="32sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="@string/estimated_consumption"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/more_than_one_tank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="135dp"
+                        android:gravity="center"
+                        android:text="@string/more_than_one_tank"
+                        android:textColor="@color/text_white"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/route_details_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_rectangle2"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dip"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:text="@string/distance_label"
+                                android:textColor="@color/text_grey"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/distance_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dip"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:maxLines="1"
+                                android:text="@string/empty_value"
+                                android:textColor="@color/text_white"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dip"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/rounded_rectangle2"
+                            android:orientation="vertical"
+                            android:weightSum="2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dip"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:text="@string/duration_label"
+                                android:textColor="@color/text_grey"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/duration_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dip"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="1"
+                                android:gravity="right"
+                                android:maxLines="1"
+                                android:text="@string/empty_value"
+                                android:textColor="@color/text_white"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/rounded_rectangle2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:text="@string/average_speed_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/average_speed_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/gas_consumption_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_center2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:text="@string/gas_consumption_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/gas_consumption_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/gas_price_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button_center2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:text="@string/gas_price_label"
+                            android:textColor="@color/text_grey"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/gas_price_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dip"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="@string/empty_value"
+                            android:textColor="@color/text_white"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/divider_line"
+            android:layout_height="1px"/>
+
+        <TextView
+            android:id="@+id/powered_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#888888"
+            android:textSize="12sp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/powered_by_google" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_results_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/no_results_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/no_result_image"
+            android:src="@drawable/no_result" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_results_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/no_result_description"
+            android:textColor="@color/text_grey"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/no_results_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/no_result_title"
+            android:textColor="@color/holo_blue_light"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+</LinearLayout>

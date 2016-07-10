@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/tips_share"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/action_tips_share"/>
+    
+    <item
+        android:id="@+id/service_list_switch"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:title="@string/action_service_list_view"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:icon="@drawable/settings_icon"
+        android:title="@string/action_settings"/>
+
+</menu>
